@@ -64,7 +64,7 @@ class WeatherApp:
 
 def main():
     # Get API key (in a real app, you might want to store this more securely)
-    api_key = input("Enter your OpenWeatherMap API key: ").strip()
+    api_key = "1a45e0667b1074687306201df0cf198f"
     
     # Initialize weather app
     app = WeatherApp(api_key)
